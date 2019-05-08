@@ -18,4 +18,4 @@ const Product = mongoose.model('Product')
 //PRIMEIRA ROTA
 app.use('/api', require('./src/routes'))
 
-app.listen(3200)
+app.listen(3000)
